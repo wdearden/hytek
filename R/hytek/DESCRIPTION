@@ -1,0 +1,20 @@
+Package: hytek
+Title: Parse Hy-Tek swimming results
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Will",
+           family = "Dearden",
+           role = c("aut", "cre"),
+           email = "wdearden208@gmail.com")
+Description: Parse Hy-Tek swimming results
+License: MIT
+Encoding: UTF-8
+LazyData: true
+Imports:
+    dplyr,
+    hms,
+    readr,
+    stringr
+Suggests: 
+    testthat
+RoxygenNote: 6.1.0
