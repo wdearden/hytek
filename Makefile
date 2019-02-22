@@ -24,4 +24,5 @@ check: build
 	rm -rf $(PACKAGE).Rcheck
 
 pkgdown: install
+	cp README.md R/hytek/README.md
 	Rscript -e "pkgdown::build_site('R/$(PACKAGE)', preview = TRUE)"
